@@ -1,0 +1,20 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url('../images/clouds.jpg');
+}
+
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+form > * {
+    color: white;
+}
+
+button {
+    color: black;
+}
