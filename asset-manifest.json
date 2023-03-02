@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/NickKline9931/Weather-App/static/css/main.23e3b398.css",
+    "main.js": "/NickKline9931/Weather-App/static/js/main.c9ad489d.js",
+    "static/media/clouds.jpg": "/NickKline9931/Weather-App/static/media/clouds.0b53dfd698fd1c605dd6.jpg",
+    "static/media/thermometer.png": "/NickKline9931/Weather-App/static/media/thermometer.bfc3abf12f3a1c36709b.png",
+    "index.html": "/NickKline9931/Weather-App/index.html",
+    "main.23e3b398.css.map": "/NickKline9931/Weather-App/static/css/main.23e3b398.css.map",
+    "main.c9ad489d.js.map": "/NickKline9931/Weather-App/static/js/main.c9ad489d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23e3b398.css",
+    "static/js/main.c9ad489d.js"
+  ]
+}
