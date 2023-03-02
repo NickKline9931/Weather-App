@@ -1,9 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+.api {
+    position: relative;
+    right: 439px;
+    bottom: 470px;
+}
+
 body {
     padding: 0;
     margin: 0;
     background-image: url('../images/clouds.jpg');
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    align-items: center;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header > h1, header > h4 {
+    margin-bottom: -12px;
+}
+
+header > * {
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form > * {
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+h4, h6, header > h1 {
+    color: white;
+}
+
+.timeDiv {
+    position: absolute;
+    top: -7%;
+    right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timeDiv > * {
+    margin-bottom: -20px;
+}
+
+.shortInput {
+    width: 28px;
+}
+
+input {
+    height: 20px;
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+    padding-left: 2px;
+}
+
+footer {
+    position: relative;
+    right: 439px;
+    top: 13px;
+}
 
 img {
     height: 100%;
@@ -17,4 +94,76 @@ form > * {
 
 button {
     color: black;
+}
+
+.inputDiv > * {
+    margin-right: 8px;
+}
+
+.radioDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.radioDiv > label {
+    margin-left: 30px;
+}
+
+.radioDiv > label > input {
+    vertical-align: bottom;
+    margin-right: 3px;
+}
+
+.info {
+    background-color: white;
+    min-height: 200px;
+    height: 450px;
+    width: 494px;
+    height: auto;
+    border-radius: 8%;
+    border: 4px solid black;
+    display: flex;
+    position: relative;
+    padding: 0;
+}
+
+.cityTemp {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -10%;
+    left: 3%;
+}
+
+.cityTemp > * {
+    margin-bottom: -20px;
+}
+
+.cityTemp > img {
+    width: 70px;
+    height: auto;
+    margin-top: 20px;
+    display: block;
+}
+
+.weatherIcon {
+    position: absolute;
+    right: 15%;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weatherIcon > img {
+    width: 90px;
+    height: auto;
+    margin-top: -20px;
+}
+
+.seeWeather {
+    width: 190px;
+    position: relative;
+    left: 20px;
 }
