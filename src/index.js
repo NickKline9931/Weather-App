@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Home from './Home';
-import { HashRouter } from 'react-router-dom';
+import RouteSwitch from "./RouteSwitch";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <HashRouter base="/">
-    <Home />
-  </HashRouter>
+  <React.StrictMode>
+    <RouteSwitch />
+  </React.StrictMode>
 );
 
