@@ -4,12 +4,13 @@
 
 body {
     overflow: hidden;
+    position: relative;
 }
 
 .api {
-    position: relative;
-    right: 439px;
-    bottom: 470px;
+    position: absolute;
+    left: -0.5%;
+    top: -3.5%;
 }
 
 body {
@@ -77,9 +78,9 @@ input {
 }
 
 footer {
-    position: relative;
-    right: 439px;
-    top: 13px;
+    position: absolute;
+    left: -0.5%;
+    bottom: -24%;
 }
 
 img {
