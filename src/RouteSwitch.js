@@ -4,7 +4,7 @@ import Home from "./Home";
 
 const RouteSwitch = () => {
     return (
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename="/">
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
